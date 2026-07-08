@@ -1,0 +1,12 @@
+*.o
+*.obj
+*.exe
+*.out
+*.dylib
+*.so
+build/
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
