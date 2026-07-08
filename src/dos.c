@@ -1,0 +1,1 @@
+// Parses the DOS header, validates MZ signature, extracts e_lfanew

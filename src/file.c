@@ -1,0 +1,1 @@
+// Opens the file, reads the raw bytes into memory, closes it when done

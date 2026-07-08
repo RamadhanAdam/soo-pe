@@ -1,0 +1,1 @@
+// RVA-to-file-offset conversion, used by sections, imports, and exports
