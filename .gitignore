@@ -10,4 +10,4 @@ build/
 .vscode/
 .idea/
 *.swp
-*.dlldocs/BUILD_GUIDE.rst
+*.docs/BUILD_GUIDE.rst
