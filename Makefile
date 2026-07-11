@@ -27,3 +27,5 @@ clean:
 test:
 	$(CC) $(CFLAGS) tests/file_test.c src/file.c -o bin/file_test
 	./bin/file_test
+	$(CC) $(CFLAGS) tests/dos_test.c src/file.c src/dos.c -o bin/dos_test
+	./bin/dos_test
