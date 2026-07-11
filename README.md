@@ -12,4 +12,5 @@ Run `make test` to compile and run the test suite. Right now that covers `file.c
 
 ## Currently
 
-File I/O is working — opening a PE file, reading it into memory, and freeing it afterward. DOS header, NT headers, sections, imports, and exports are still being built out.
+File I/O is working.
+Opening a PE file, reading it into memory, and freeing it afterward. DOS header, NT headers, sections, imports, and exports are still being built out.
