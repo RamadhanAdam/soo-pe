@@ -21,3 +21,9 @@ build/%.o: src/%.c
 .PHONY: clean
 clean:
 	rm -rf build/*.o bin/scope
+
+# Compiles and runs the test suite 
+.PHONY: test
+test:
+	$(CC) $(CFLAGS) tests/file_test.c src/file.c -o bin/file_test
+	./bin/file_test
